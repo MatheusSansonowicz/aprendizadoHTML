@@ -1,0 +1,61 @@
+body {
+    background-image: url("ceupreto.png");
+    border-spacing: 10px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+h2 {
+    font-family: 'Bookman Old Style';
+    color: yellow;
+    position: relative;
+}
+
+h4 {
+    font-family: 'Cascadia Code';
+    color: ghostwhite;
+    padding-top: revert;
+    padding-bottom: revert;
+}
+
+
+div{
+    background: #fff200;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px black;
+
+}
+
+div2{
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-line-through-color: orange;
+    border-color: blue;
+    padding: 10px;
+    background: blueviolet;
+
+}
+
+tr{
+    background: cornflowerblue;
+}
+
+#barraSuperior{
+    position: fixed;
+    top: 0px;
+    RIGHT: 0px;
+    align-content:revert ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10PX;
+}

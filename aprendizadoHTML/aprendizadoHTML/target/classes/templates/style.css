@@ -1,0 +1,64 @@
+body {
+    background-image: url("ceuensolarado.png");
+    border-spacing: 10px;
+    border-style: solid;
+    border-color: blue;
+}
+
+h2 {
+    font-family: 'Bookman Old Style';
+    color: #0088ff;
+
+}
+
+h4 {
+    font-family: 'Cascadia Code';
+    color: ghostwhite;
+    padding-top: revert;
+    padding-bottom: revert;
+}
+
+.destaque {
+    background: aquamarine;
+}
+
+div{
+    background: cornflowerblue;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    border: solid 1px black;
+
+}
+
+div2{
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-line-through-color: #0015ff;
+    border-color: #ffb700;
+    padding: 10px;
+    background: #fff200;
+
+}
+
+tr{
+    background: #242c49;
+}
+
+#barraSuperior{
+    position: fixed;
+    top: 0px;
+    RIGHT: 0px;
+    align-content:revert ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10PX;
+}

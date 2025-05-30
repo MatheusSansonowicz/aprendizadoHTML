@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alguma coisa</title>
+    <link id="theme" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="#barraSuperior" >
+    <button onclick="changeStyle('modoDark.css')">DarkMode</button>
+    <button onclick="changeStyle('style.css')">Light Mode</button>
+</div>
+
+<h2>Curriculo Matheus Sansonowicz</h2>
+<h4 class="destaque">Profissão: atual desempregado</h4>
+
+<div>
+    <p onpointerout="true">Alguma coisa nessa biografia</p>
+    <p>informação de teste</p>
+    <a href="https://www.instagram.com/matheus_sansonowicz">Instagram</a>
+    <img src="https://i.pinimg.com/736x/24/d5/88/24d5883034a0816e25e3a9d5182dc028.jpg"
+         title="Uma imagem aleatória porque foto minha nn vai" >
+
+</div>
+
+
+
+<script>
+    function changeStyle(sheet) {
+        document.getElementById('theme').href = sheet;
+    }
+</script>
+</body>
+</html>
